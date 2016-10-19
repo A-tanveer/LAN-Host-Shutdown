@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>294</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>254</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>51</red>
+        <green>72</green>
+        <blue>70</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>113</red>
+        <green>124</green>
+        <blue>125</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>120</red>
+        <green>120</green>
+        <blue>120</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>240</red>
+        <green>240</green>
+        <blue>240</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="ShutdownAll">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>159</red>
+         <green>159</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>247</red>
+         <green>247</green>
+         <blue>247</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Shutdown All Hosts</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RestartAll">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>159</red>
+         <green>159</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>247</red>
+         <green>247</green>
+         <blue>247</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Restart All Hosts</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="restartHost">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>159</red>
+         <green>159</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>247</red>
+         <green>247</green>
+         <blue>247</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Restart Host</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  For specific host write down host name or IP address</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shutdownHost">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>159</red>
+         <green>159</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>247</red>
+         <green>247</green>
+         <blue>247</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Shutdown Host</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewAliveHost">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>159</red>
+         <green>159</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>247</red>
+         <green>247</green>
+         <blue>247</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>View Alive Hosts</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scanHost">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>159</red>
+         <green>159</green>
+         <blue>159</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>227</red>
+         <green>227</green>
+         <blue>227</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Midlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>247</red>
+         <green>247</green>
+         <blue>247</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string>Scan Alive Hosts</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>271</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
