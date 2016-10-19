@@ -27,5 +27,4 @@ def shutUser(userName):
 def restartUser(userName):
     command = "shutdown -r -t 30 -c \"please save all your works," \
               " your computer will shutdown in 30 seconds\" -m \\\\" + userName
-    print(command)
     os.system(command)

@@ -1,26 +1,16 @@
-# import logging
-
-# import math
-
 import errno
-
 from scapy.all import *
-
 import scapy.config
-
 import scapy.layers.l2
-
 import scapy.route
-
 import scapy.utils
-
 import socket
+
 
 logging.basicConfig(format='%(asctime)s %(levelname)-5s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 out = open('aliveHostList.txt', 'w')
-# out.write(output)
 
 
 def long2net(arg):
