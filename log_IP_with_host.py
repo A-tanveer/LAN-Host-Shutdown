@@ -19,6 +19,9 @@ import socket
 logging.basicConfig(format='%(asctime)s %(levelname)-5s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+out = open('aliveHostList.txt', 'w')
+# out.write(output)
+
 
 def long2net(arg):
     if arg <= 0 or arg >= 0xFFFFFFFF:
@@ -38,7 +41,7 @@ def to_CIDR_notation(bytes_network, bytes_netmask):
 
 def scan_and_print_neighbours(net, interface, timeout=1):
     logger.info("arping %s on %s" % (net, interface))
-    #logger.info("network %s", net)
+    # logger.info("network %s", net)
     try:
         ans, unans = scapy.layers.l2.arping(net, iface=interface, timeout=timeout, verbose=True)
         for s, r in ans.res:
@@ -50,11 +53,13 @@ def scan_and_print_neighbours(net, interface, timeout=1):
                 # he has failed
                 pass
             logger.info(line)
+            out.write(line + "\n")
     except socket.error as e:
         if e.errno == errno.EPERM:
             logger.error("%s. Did you run as root?", e.strerror)
         else:
             raise
+    out.close()
     return None
 
 
