@@ -1,5 +1,5 @@
 # LAN-Host-Shutdown
-  - Academic work, please do not copy
+  - licensed under the GNU General Public License version 3
 
 environment:
   - python 3.5.1
