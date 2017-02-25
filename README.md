@@ -11,6 +11,9 @@ Feature:
   - Shutdown all hosts with one click.
   - Shutdown indevidual host wit their IP address or with their username.
 
+Screenshot:
+![Alt text](https://raw.githubusercontent.com/A-tanveer/LAN-Host-Shutdown/master/Capture.JPG?raw=true "Screenshot")
+
 Note:
   - Run hostremoteaccess.py script in the host PC to get remote shutdown access.
   - After running the GUI, run a scan first.
