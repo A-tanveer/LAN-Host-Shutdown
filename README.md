@@ -9,6 +9,7 @@ Environment:
 Feature:
   - Send ARP request to list all alive hosts in a LAN.
   - Shutdown all hosts with one click.
+  - Shutdown indevidual host wit their IP address or with their username.
 
 Note:
   - Run hostremoteaccess.py script in the host PC to get remote shutdown access.
